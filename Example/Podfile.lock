@@ -1,0 +1,23 @@
+PODS:
+  - Device (3.1.2)
+  - Nice (0.1.0):
+    - Device (~> 3.1.2)
+
+DEPENDENCIES:
+  - Nice (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Device
+
+EXTERNAL SOURCES:
+  Nice:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Device: 62242076214c30fb5760174b3601cefafa70a481
+  Nice: 82d21e9ccb8616ff5df7f78830512fc1ed3faa5d
+
+PODFILE CHECKSUM: 917dd9b07169a0acb4238946984533de06177be1
+
+COCOAPODS: 1.5.3
