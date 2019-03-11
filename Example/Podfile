@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Nice_Example' do
+  pod 'Nice', :path => '../'
+
+  target 'Nice_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
